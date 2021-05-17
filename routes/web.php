@@ -25,4 +25,4 @@ Route::get('/login', function () {
     return view('pengguna/login');
 });
 
-Route::post('/postlogin', 'LoginController@postlogin')->name('postlogin');
+Route::post('/postlogin', 'App\Http\Controllers\LoginController@postlogin')->name('postlogin');
